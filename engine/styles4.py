@@ -15,7 +15,7 @@ def ubahn2(it, meta):
                    + '<b class="door" style="left:250px"></b><b class="door" style="left:560px"></b></div>' for k in range(3))
     body = (brand(color=BLK, accent=RED, icon_top=BLK) + count(meta, '#444') +
             f'<div id="sign"><span class="u">U</span>{it["tag"]}</div>'
-            f'<div id="po"><span class="tg">{tr_upper(it["tag"])}</span><h1>{it["title"]}</h1><i class="bar"></i><p>{it["body"]}</p>'
+            f'<div id="po"><span class="tg">{tr_upper(it["tag"])}</span><h1>{it["title"]}</h1><i class="bar"></i><p>{it["body"]}</p>' + (f'<div class="et"><b>SANA ETKİSİ</b>{it["etki"]}</div>' if it.get('etki') else '') +
             f'<div class="src">KAYNAK: {it["source"]}</div></div>'
             f'<div id="tr">{cars}</div><div id="edge"></div><div id="fl"></div>')
     css = f"""#s{{background:#E8E1CC;background-image:linear-gradient(#cfc6ad 2px,transparent 2px),linear-gradient(90deg,#cfc6ad 2px,transparent 2px);
@@ -29,7 +29,9 @@ def ubahn2(it, meta):
 .tg{{display:inline-block;background:{RED};color:#fff;font:800 30px PO;letter-spacing:4px;padding:10px 22px;border-radius:6px}}
 #po h1{{font:800 82px/1.06 PO;color:#111;letter-spacing:-1.5px;margin:30px 0 28px}}
 .bar{{display:block;width:120px;height:10px;background:{RED};border-radius:5px;margin-bottom:30px}}
-#po p{{font:500 37px/1.48 IN;color:#262626}}
+#po p{{font:500 35px/1.46 IN;color:#262626}}
+.et{{margin-top:22px;border-left:8px solid {RED};background:rgba(200,16,46,.07);padding:12px 18px;font:600 30px/1.4 IN;color:#111}}
+.et b{{display:block;font:800 19px PO;letter-spacing:4px;color:{RED}}}
 .src{{position:absolute;left:60px;bottom:44px;font:600 24px IN;letter-spacing:3px;color:#777}}
 #tr{{position:absolute;top:610px;left:0;height:900px;width:2460px;z-index:6}}
 .car{{position:absolute;top:0;width:812px;height:900px;background:linear-gradient(#F6DC2A,#E9C813 70%,#C9A70A);border-radius:30px 30px 0 0;
@@ -62,7 +64,7 @@ def neon(it, meta):
     body = ('<canvas id="br" width="540" height="960" style="position:absolute;inset:0;width:1080px;height:1920px"></canvas>'
             + brand() + count(meta, 'rgba(255,255,255,.55)') +
             f'<div id="tg" class="nn">{it["tag"].lower()}</div><h1 id="h" class="nn">{tr_upper(it["title"])}</h1>'
-            f'<div id="lb"><p>{it["body"]}</p><div class="src">KAYNAK: {it["source"]}</div></div>')
+            f'<div id="lb"><p>{it["body"]}</p>' + (f'<div class="et"><b>SANA ETKİSİ</b>{it["etki"]}</div>' if it.get('etki') else '') + f'<div class="src">KAYNAK: {it["source"]}</div></div>')
     css = f"""#s{{background:#120e10}}
 #tg{{position:absolute;left:80px;top:470px;font:700 120px/1 HW;color:#fff;transform:rotate(-6deg);
   --g:0 0 4px #fff,0 0 12px #ff4a64,0 0 28px #ff2d4a,0 0 60px #ff2d4a,0 0 110px #C8102E}}
@@ -71,7 +73,9 @@ def neon(it, meta):
 .nn{{text-shadow:var(--g);z-index:5}}
 #lb{{position:absolute;left:80px;right:80px;top:1130px;background:#F7F3EA;padding:40px 46px 78px;border-radius:10px;z-index:5;
   box-shadow:0 0 0 6px #1c1c1c,0 0 50px rgba(255,240,220,.35)}}
-#lb p{{font:500 36px/1.48 IN;color:#1a1a1a}}
+#lb p{{font:500 34px/1.46 IN;color:#1a1a1a}}
+.et{{margin-top:18px;border-left:8px solid {RED};padding:6px 0 6px 18px;font:600 30px/1.4 IN;color:#111}}
+.et b{{display:block;font:800 19px PO;letter-spacing:4px;color:{RED}}}
 .src{{position:absolute;left:46px;bottom:26px;font:600 22px IN;letter-spacing:3px;color:#777}}"""
     js = r"""
 const $=i=>document.getElementById(i);
@@ -150,14 +154,16 @@ def kiez(it, meta):
     body = ('<canvas id="c" width="1080" height="1920" style="position:absolute;inset:0"></canvas>'
             + brand(color=BLK, accent=RED, icon_top=BLK) + count(meta, '#444') +
             f'<div id="pin"><i></i><span>{tr_upper(it["tag"])}</span></div>'
-            f'<h1 id="h">{hl}</h1><p id="b">{it["body"]}</p><div id="src">KAYNAK: {it["source"]}</div>')
+            f'<h1 id="h">{hl}</h1><div id="b"><p>{it["body"]}</p>' + (f'<div class="et"><b>SANA ETKİSİ</b>{it["etki"]}</div>' if it.get('etki') else '') + f'</div><div id="src">KAYNAK: {it["source"]}</div>')
     css = f"""#s{{background:linear-gradient(#F3EEE3,#E6DDCB)}}
 #pin{{position:absolute;left:0;top:0;z-index:5;display:flex;flex-direction:column;align-items:center}}
 #pin span{{order:-1;background:{RED};color:#fff;font:800 28px PO;letter-spacing:4px;padding:8px 18px;border-radius:6px;margin-bottom:8px;white-space:nowrap}}
 #pin i{{width:4px;height:70px;background:#111}}
 #h{{position:absolute;left:70px;right:70px;top:1060px;font:800 80px/1.08 PO;color:#111;letter-spacing:-1.5px}}
 .w{{display:inline-block;overflow:hidden;vertical-align:top}}.w span{{display:inline-block}}
-#b{{position:absolute;left:70px;right:70px;font:500 36px/1.48 IN;color:#2a2a2a}}
+#b{{position:absolute;left:70px;right:70px;font:500 35px/1.46 IN;color:#2a2a2a}}
+.et{{margin-top:22px;border-left:8px solid {RED};background:rgba(200,16,46,.08);padding:14px 20px;font:600 31px/1.4 IN;color:#111}}
+.et b{{display:block;font:800 20px PO;letter-spacing:4px;color:{RED};margin-bottom:4px}}
 #src{{position:absolute;left:70px;font:600 22px IN;letter-spacing:3px;color:#777}}"""
     js = r"""
 const $=i=>document.getElementById(i),cv=$('c'),x=cv.getContext('2d'),N=8,S=60,CX=540,CY=500;

@@ -1,0 +1,40 @@
+{
+ "date": "2026-11-17",
+ "built": "2026-11-16T23:47:03+00:00",
+ "needs_approval": true,
+ "items": [
+  {
+   "idx": 1,
+   "title": "Koalisyonda ilk kararlar çarşamba",
+   "tag": "SİYASET",
+   "source": "dpa",
+   "style": "kiez",
+   "sensitive": false,
+   "sources_n": 2,
+   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-17/01.mp4",
+   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-17/01.jpg"
+  },
+  {
+   "idx": 2,
+   "title": "Haftaya değişken başlangıç",
+   "tag": "HAVA",
+   "source": "Tagesspiegel",
+   "style": "kiez",
+   "sensitive": false,
+   "sources_n": 2,
+   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-17/02.mp4",
+   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-17/02.jpg"
+  },
+  {
+   "idx": 3,
+   "title": "Noel pazarı sezonu kapıda",
+   "tag": "ŞEHİR",
+   "source": "visitBerlin · dpa",
+   "style": "kiez",
+   "sensitive": false,
+   "sources_n": 2,
+   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-17/03.mp4",
+   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-17/03.jpg"
+  }
+ ]
+}

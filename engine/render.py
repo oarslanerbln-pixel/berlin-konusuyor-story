@@ -5,8 +5,9 @@ import sys, json, asyncio, pathlib, subprocess, datetime
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from styles import STYLES
 from styles3 import STYLES3
+from styles4 import STYLES4
 from sfx import synth
-STYLES.update(STYLES3)
+STYLES.update(STYLES3); STYLES.update(STYLES4)
 
 FPS = 30
 ROTATION = ['bauhaus', 'fallblatt', 'telex']

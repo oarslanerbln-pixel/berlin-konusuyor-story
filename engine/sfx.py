@@ -46,7 +46,31 @@ def synth(events, dur, path, seed=7):
             m = int(.6 * SR); tt = np.arange(m) / SR; f = 46 + 40 * np.exp(-tt / .05)
             sig = np.sin(2 * np.pi * np.cumsum(f) / SR) * _env(m, .002, .16)
             sig += _lp(rng.standard_normal(m), .35) * _env(m, .0008, .025) * 1.4
-            add(sig, t, 0, .85)
+            add(sig, t, 0, .85 * e.get('v', 1))
+        elif k == 'train':  # wheels on rails: low rumble + rhythmic joints, panning with direction
+            m = int(e['d'] * SR); tt = np.arange(m) / SR; x = _lp(rng.standard_normal(m), .03); x /= np.abs(x).max() + 1e-9
+            sp = np.linspace(1, .15, m) if e.get('dir', -1) < 0 else np.linspace(.15, 1, m) ** 1.5
+            joints = (np.sin(2 * np.pi * np.cumsum(6 * sp) / SR) > .97) * _lp(rng.standard_normal(m), .3) * 2.5
+            env = np.sin(np.pi * np.minimum(1, tt / e['d'])) ** .6
+            sig = (x * (.6 + .4 * sp) + joints) * env; pan = np.linspace(.7, -.3, m) if e.get('dir', -1) < 0 else np.linspace(0, -.8, m)
+            i = int(t * SR); j = min(n, i + m); L[i:j] += (sig * np.sqrt(1 - pan) * .35)[:j - i]; R[i:j] += (sig * np.sqrt(1 + pan) * .35)[:j - i]
+        elif k == 'brake':  # squeal
+            m = int(e['d'] * SR); tt = np.arange(m) / SR; f = 2900 + 120 * np.sin(2 * np.pi * 7 * tt)
+            add(np.sin(2 * np.pi * np.cumsum(f) / SR) * np.sin(np.pi * tt / e['d']) ** 2, t, .2, .05)
+        elif k == 'chime':  # two-tone station gong
+            for dt, f in ((0, 784), (.42, 622)):
+                m = int(1.2 * SR); tt = np.arange(m) / SR
+                add((np.sin(2 * np.pi * f * tt) + .3 * np.sin(4 * np.pi * f * tt)) * _env(m, .004, .45), t + dt, 0, .16)
+        elif k == 'buzz':  # neon transformer hum
+            m = int(e['d'] * SR); tt = np.arange(m) / SR
+            sig = sum(np.sin(2 * np.pi * 100 * h * tt) / h for h in (1, 2, 3, 5)) + _lp(rng.standard_normal(m), .5) * .3
+            add(sig * np.minimum(1, tt / .05), t, 0, .035 * e.get('v', 1))
+        elif k == 'spray':  # aerosol hiss
+            m = int(e['d'] * SR); tt = np.arange(m) / SR; x = rng.standard_normal(m); x -= _lp(x, .25)
+            add(x * np.minimum(1, tt / .03) * np.minimum(1, (e['d'] - tt) / .05), t, rng.uniform(-.3, .3), .22)
+        elif k == 'rattle':  # shaking the can
+            for q in range(6):
+                m = int(.05 * SR); add(rng.standard_normal(m) * _env(m, .0005, .01), t + q * .11, .3, .25)
         elif k == 'tick':  # light UI tick
             m = int(.04 * SR); tt = np.arange(m) / SR
             add(np.sin(2 * np.pi * 1800 * tt) * _env(m, .0004, .008), t, rng.uniform(-.4, .4), .12 * e.get('v', 1))

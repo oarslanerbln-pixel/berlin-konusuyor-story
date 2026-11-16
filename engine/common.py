@@ -18,7 +18,10 @@ def _ff(fam, stem, w):
 
 FONT_CSS = (_ff('PO', 'poppins-{}-800-normal.woff2', 800)
             + _ff('IN', 'inter-{}-500-normal.woff2', 500) + _ff('IN', 'inter-{}-600-normal.woff2', 600)
-            + _ff('MO', 'ibm-plex-mono-{}-500-normal.woff2', 500) + _ff('MO', 'ibm-plex-mono-{}-700-normal.woff2', 700))
+            + _ff('MO', 'ibm-plex-mono-{}-500-normal.woff2', 500) + _ff('MO', 'ibm-plex-mono-{}-700-normal.woff2', 700)
+            + _ff('PF', 'playfair-display-{}-400-normal.woff2', 400) + _ff('PF', 'playfair-display-{}-900-normal.woff2', 900)
+            + _ff('HW', 'caveat-{}-700-normal.woff2', 700)
+            + f"@font-face{{font-family:FK;src:url('file://{FONTS}/unifrakturcook-latin-700-normal.woff2');font-weight:700}}")
 
 
 def _svg(keys, fills, bbox, h):

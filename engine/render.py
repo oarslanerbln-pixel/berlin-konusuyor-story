@@ -7,6 +7,8 @@ from styles import STYLES
 
 FPS = 30
 ROTATION = ['bauhaus', 'fallblatt', 'telex']
+AY = 'Ocak Şubat Mart Nisan Mayıs Haziran Temmuz Ağustos Eylül Ekim Kasım Aralık'.split()
+GUN = 'Pazartesi Salı Çarşamba Perşembe Cuma Cumartesi Pazar'.split()
 
 
 async def clip(pg, html, out_mp4, out_jpg):
@@ -37,7 +39,7 @@ async def main():
         pg = await b.new_page(viewport={'width': 1080, 'height': 1920})
         for i, it in enumerate(items, 1):
             style = it.get('style') or (mode if mode != 'auto' else ROTATION[(d.toordinal() + i) % 3])
-            meta = dict(idx=i, total=len(items), date_num=d.strftime('%d.%m.%Y'))
+            meta = dict(idx=i, total=len(items), date_num=d.strftime('%d.%m.%Y'), date_long=f'{d.day} {AY[d.month-1]} {d.year} · {GUN[d.weekday()]}')
             dur = await clip(pg, STYLES[style](it, meta), out / f'{i:02d}_{style}.mp4', out / f'{i:02d}_{style}.jpg')
             print(f'{i:02d}_{style}.mp4  {dur:.1f}s')
         await b.close()

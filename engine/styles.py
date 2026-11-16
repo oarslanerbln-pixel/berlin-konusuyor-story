@@ -168,3 +168,6 @@ window.render=t=>{
 
 
 STYLES = dict(fallblatt=fallblatt, telex=telex, bauhaus=bauhaus)
+
+from styles2 import STYLES2  # noqa: E402
+STYLES.update(STYLES2)

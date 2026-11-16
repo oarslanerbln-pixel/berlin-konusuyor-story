@@ -1,0 +1,5 @@
+{
+  "monthly_styles": ["kiez", "neon", "ubahn2"],
+  "start_month": "2026-11",
+  "_note": "Her ay bir stil: Kasım 2026 kiez, Aralık neon, Ocak ubahn2, sonra başa döner. Bir habere 'style' yazılırsa o geçerli olur."
+}

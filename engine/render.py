@@ -38,6 +38,12 @@ async def clip(pg, html, out_mp4, out_jpg):
     return dur
 
 
+def monthly_style(d):
+    cfg = json.load(open(pathlib.Path(__file__).resolve().parent.parent / 'config.json'))
+    y0, m0 = map(int, cfg['start_month'].split('-'))
+    return cfg['monthly_styles'][((d.year * 12 + d.month) - (y0 * 12 + m0)) % len(cfg['monthly_styles'])]
+
+
 async def main():
     src, out = sys.argv[1], pathlib.Path(sys.argv[2]).resolve(); out.mkdir(parents=True, exist_ok=True)
     mode = sys.argv[3] if len(sys.argv) > 3 else 'auto'
@@ -48,7 +54,7 @@ async def main():
         b = await pw.chromium.launch(executable_path='/usr/bin/google-chrome', args=['--allow-file-access-from-files'])
         pg = await b.new_page(viewport={'width': 1080, 'height': 1920})
         for i, it in enumerate(items, 1):
-            style = it.get('style') or (mode if mode != 'auto' else ROTATION[(d.toordinal() + i) % 3])
+            style = it.get('style') or (mode if mode != 'auto' else monthly_style(d))
             meta = dict(idx=i, total=len(items), date_num=d.strftime('%d.%m.%Y'), date_long=f'{d.day} {AY[d.month-1]} {d.year} · {GUN[d.weekday()]}', titles=[x['title'] for x in items])
             dur = await clip(pg, STYLES[style](it, meta), out / f'{i:02d}_{style}.mp4', out / f'{i:02d}_{style}.jpg')
             print(f'{i:02d}_{style}.mp4  {dur:.1f}s')

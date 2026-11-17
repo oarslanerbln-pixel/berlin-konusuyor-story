@@ -1,7 +1,7 @@
 {
  "date": "2026-11-17",
  "edition": "sabah",
- "built": "2026-11-17T09:32:18+00:00",
+ "built": "2026-11-17T15:12:24+00:00",
  "needs_approval": true,
  "items": [
   {
@@ -9,7 +9,7 @@
    "title": "Elektrik vergisi bu akşam masada",
    "tag": "EKONOMİ",
    "source": "tagesschau · Stern",
-   "style": "kiez",
+   "style": "sabah",
    "sensitive": false,
    "sources_n": 2,
    "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-17/01.mp4",
@@ -20,7 +20,7 @@
    "title": "Berlin–Hannover hattında arıza sürüyor",
    "tag": "ULAŞIM",
    "source": "rbb24 · dpa",
-   "style": "kiez",
+   "style": "sabah",
    "sensitive": false,
    "sources_n": 2,
    "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-17/02.mp4",
@@ -31,7 +31,7 @@
    "title": "Toplu sınır dışı iddiasına yalanlama",
    "tag": "TOPLUM",
    "source": "DMM · AA",
-   "style": "kiez",
+   "style": "sabah",
    "sensitive": true,
    "sources_n": 2,
    "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-17/03.mp4",

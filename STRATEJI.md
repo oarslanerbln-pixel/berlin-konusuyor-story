@@ -11,7 +11,7 @@ Bu dosya iki günlük görevin (07:52 sabah, 19:27 akşam; paylaşımdan ~30 dk 
 | Kart 1 | Günün en önemli haberi | **Günün gelişmesi**: bugün içinde kesinleşen/değişen en önemli olay |
 | Kart 2 | Berlin yerel (ulaşım, kent, hava) | **Yarın Berlin'de**: BVG/S-Bahn, hava (DWD), son başvuru tarihleri, etkinlikler – somut tarih/saatle |
 | Kart 3 | Topluluk / Almanya / dünya | **Topluluk & Günün sorusu**: toplulukla ilgili haber ya da izleyiciye sorulacak tek soru (anket için) |
-| Stil | Ayın stili (config.json) | Listede bir sonraki stil (akşam farklı görünür) |
+| Stil | `sabah`: temiz, açık renkli, büyük yazı (config.json → edition_styles) | `neon` (config.json → edition_styles) |
 
 ## 2. Tekrar etmeme kuralları
 

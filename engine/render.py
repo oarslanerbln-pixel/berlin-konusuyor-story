@@ -6,9 +6,10 @@ sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from styles import STYLES
 from styles3 import STYLES3
 from styles4 import STYLES4
+from styles5 import STYLES5
 from sfx import synth
 from music import music
-STYLES.update(STYLES3); STYLES.update(STYLES4)
+STYLES.update(STYLES3); STYLES.update(STYLES4); STYLES.update(STYLES5)
 
 FPS = 30
 ROTATION = ['bauhaus', 'fallblatt', 'telex']
@@ -67,6 +68,8 @@ EDITION = 'sabah'
 
 def monthly_style(d):
     cfg = json.load(open(pathlib.Path(__file__).resolve().parent.parent / 'config.json'))
+    fixed = cfg.get('edition_styles', {}).get(EDITION)
+    if fixed: return fixed
     y0, m0 = map(int, cfg['start_month'].split('-'))
     off = cfg.get('evening_offset', 1) if EDITION == 'aksam' else 0
     return cfg['monthly_styles'][((d.year * 12 + d.month) - (y0 * 12 + m0) + off) % len(cfg['monthly_styles'])]

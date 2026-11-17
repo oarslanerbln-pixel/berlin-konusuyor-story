@@ -5,6 +5,10 @@
     "ubahn2"
   ],
   "start_month": "2026-11",
-  "_note": "Sabah: ay stili (Kasım kiez, Aralık neon, Ocak ubahn2). Akşam: listede bir sonraki stil (Kasım neon, Aralık ubahn2, Ocak kiez). Bir habere 'style' yazılırsa o geçerli olur.",
-  "evening_offset": 1
+  "_note": "Her baskının sabit stili edition_styles'ta: sabah = 'sabah' (temiz, açık renk), akşam = 'neon'. edition_styles silinirse aylık rotasyon (monthly_styles) devreye girer. Bir habere 'style' yazılırsa o geçerli olur.",
+  "evening_offset": 1,
+  "edition_styles": {
+    "sabah": "sabah",
+    "aksam": "neon"
+  }
 }

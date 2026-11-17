@@ -67,7 +67,7 @@ window.render=t=>{
 def neon(it, meta):
     body = ('<canvas id="br" width="540" height="960" style="position:absolute;inset:0;width:1080px;height:1920px"></canvas>'
             + brand() + count(meta, 'rgba(255,255,255,.55)') +
-            f'<div id="tg" class="nn">{it["tag"].lower()}</div><h1 id="h" class="nn">{tr_upper(it["title"])}</h1>'
+            f'<div id="tg" class="nn">{it["tag"].replace("İ", "i").replace("I", "ı").lower()}</div><h1 id="h" class="nn">{tr_upper(it["title"])}</h1>'
             f'<div id="lb"><p>{it["body"]}</p>' + (f'<div class="et"><b>SANA ETKİSİ</b>{it["etki"]}</div>' if it.get('etki') else '') + f'<div class="src">KAYNAK: {it["source"]}</div></div>')
     css = f"""#s{{background:#120e10}}
 #tg{{position:absolute;left:80px;top:470px;font:700 120px/1 HW;color:#fff;transform:rotate(-6deg);
@@ -77,12 +77,15 @@ def neon(it, meta):
 .nn{{text-shadow:var(--g);z-index:5}}
 #lb{{position:absolute;left:80px;right:80px;top:1130px;background:#F7F3EA;padding:40px 46px 78px;border-radius:10px;z-index:5;
   box-shadow:0 0 0 6px #1c1c1c,0 0 50px rgba(255,240,220,.35)}}
-#lb p{{font:500 34px/1.46 IN;color:#1a1a1a}}
-.et{{margin-top:18px;border-left:8px solid {RED};padding:6px 0 6px 18px;font:600 30px/1.4 IN;color:#111}}
+#lb p{{font:500 39px/1.46 IN;color:#1a1a1a}}
+.et{{margin-top:20px;border-left:8px solid {RED};padding:6px 0 6px 18px;font:600 34px/1.4 IN;color:#111}}
 .et b{{display:block;font:800 19px PO;letter-spacing:4px;color:{RED}}}
-.src{{position:absolute;left:46px;bottom:26px;font:600 22px IN;letter-spacing:3px;color:#777}}"""
+.src{{position:absolute;left:46px;bottom:26px;font:600 24px IN;letter-spacing:3px;color:#777}}"""
     js = r"""
 const $=i=>document.getElementById(i);
+window.fit=()=>{const h=$('h'),lb=$('lb'),ps=[...lb.querySelectorAll('p,.et')];let k=1;  // place the card under the title, shrink if it runs off
+  const place=()=>{lb.style.top=Math.max(1000,h.offsetTop+h.offsetHeight+70)+'px'};place();
+  while(lb.offsetTop+lb.offsetHeight>1690&&k>.7){k-=.03;h.style.fontSize=86*k+'px';ps.forEach(e=>e.style.fontSize=(e.tagName=='P'?39:34)*k+'px');place()}};
 {const g=$('br').getContext('2d');g.fillStyle='#1b1517';g.fillRect(0,0,540,960);
  for(let r=0;r<60;r++)for(let c=-1;c<12;c++){const x=c*50+(r%2)*25,y=r*16,v=24+rnd(r*31+c)*16;
   g.fillStyle=`rgb(${v+10},${v-2},${v})`;g.fillRect(x+1.5,y+1.5,47,13)}

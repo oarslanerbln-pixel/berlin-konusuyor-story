@@ -17,7 +17,7 @@ def _lp(x, a):  # one-pole low-pass
     return y
 
 
-def synth(events, dur, path, seed=7):
+def synth(events, dur, path, seed=7, music=None):
     rng = np.random.default_rng(seed)
     n = int(dur * SR); L = np.zeros(n); R = np.zeros(n)
 
@@ -74,7 +74,9 @@ def synth(events, dur, path, seed=7):
         elif k == 'tick':  # light UI tick
             m = int(.04 * SR); tt = np.arange(m) / SR
             add(np.sin(2 * np.pi * 1800 * tt) * _env(m, .0004, .008), t, rng.uniform(-.4, .4), .12 * e.get('v', 1))
-    mix = np.stack([L, R], 1); pk = np.abs(mix).max()
+    mix = np.stack([L, R], 1)
+    if music is not None: mix = mix * .8 + music[:n]
+    pk = np.abs(mix).max()
     if pk > .98: mix *= .98 / pk
     with wave.open(str(path), 'wb') as w:
         w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR)

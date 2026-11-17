@@ -37,6 +37,7 @@ Bu dosya iki günlük görevin (07:52 sabah, 19:27 akşam; paylaşımdan ~30 dk 
 
 - Kendi cümlelerimiz; kaynaktan cümle kopyalanmaz, rakam ve alıntı uydurulmaz.
 - Başlık ≤ 45 karakter, metin ≤ 230 karakter, "Sana etkisi" ≤ 110 karakter ve somut olmalı (ne yapmalı / kimi etkiler / ne zaman).
+- Süre otomatik: her story en az 15 sn, okuma süresine göre (≈2,4 kelime/sn) en fazla 45 sn. Sağ üstte geri sayım halkası, altta telifsiz prosedürel fon müziği (sabah majör, akşam minör) motor tarafından eklenir.
 - Tarafsız; siyasi değerlendirme yok. Suç, ölüm, din, kutuplaştırıcı siyaset → `sensitive: true`.
 
 ## 5. JSON alanları

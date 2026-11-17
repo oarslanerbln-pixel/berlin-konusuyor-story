@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-17",
+ "edition": "ogle",
+ "built": "2026-11-17T13:49:03+00:00",
+ "needs_approval": true,
+ "items": [
+  {
+   "idx": 1,
+   "title": "Berlin–Hannover: trenler yeniden yolda",
+   "tag": "GÜNCELLEME",
+   "source": "dpa · NDR",
+   "style": "ubahn2",
+   "sensitive": false,
+   "sources_n": 2,
+   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-17-ogle/01.mp4",
+   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-17-ogle/01.jpg"
+  },
+  {
+   "idx": 2,
+   "title": "Ringbahn'a 14 aylık kesinti planı",
+   "tag": "ULAŞIM",
+   "source": "Berliner Kurier · nd",
+   "style": "ubahn2",
+   "sensitive": false,
+   "sources_n": 2,
+   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-17-ogle/02.mp4",
+   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-17-ogle/02.jpg"
+  },
+  {
+   "idx": 3,
+   "title": "İstilacı karınca türü Berlin'de görüldü",
+   "tag": "ŞEHİR",
+   "source": "dpa · rbb24",
+   "style": "ubahn2",
+   "sensitive": false,
+   "sources_n": 2,
+   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-17-ogle/03.mp4",
+   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-17-ogle/03.jpg"
+  }
+ ]
+}

@@ -46,6 +46,10 @@ def ubahn2(it, meta):
     js = r"""
 const $=i=>document.getElementById(i),mq=[...document.querySelectorAll('.mq')];
 const A0=.35,A1=1.75,D0=2.75,D1=3.75;window.DUR=8.4;
+window.fit=()=>{const po=$('po'),h=po.querySelector('h1'),ps=[...po.querySelectorAll('p,.et')];let k=1;  // shrink type until text clears the source line
+  const last=()=>{const e=ps[ps.length-1];return e.offsetTop+e.offsetHeight};
+  while(last()>po.clientHeight-100&&k>.6){k-=.04;h.style.fontSize=82*k+'px';h.style.margin=`${30*k}px 0 ${28*k}px`;
+    ps.forEach(e=>e.style.fontSize=(e.tagName=='P'?35:30)*Math.max(k,.78)+'px')}};
 window.SFX=[{t:A0,k:'train',d:A1-A0+.3,dir:-1},{t:A1-.55,k:'brake',d:.6},{t:2.15,k:'chime'},{t:D0,k:'train',d:D1-D0+.6,dir:1}];
 window.render=t=>{
   const f=t<.25?(Math.floor(t*30)%3==0?.6:.2):0;$('fl').style.opacity=t<.3?f:0;

@@ -38,16 +38,22 @@ async def clip(pg, html, out_mp4, out_jpg):
     return dur
 
 
+EDITION = 'sabah'
+
+
 def monthly_style(d):
     cfg = json.load(open(pathlib.Path(__file__).resolve().parent.parent / 'config.json'))
     y0, m0 = map(int, cfg['start_month'].split('-'))
-    return cfg['monthly_styles'][((d.year * 12 + d.month) - (y0 * 12 + m0)) % len(cfg['monthly_styles'])]
+    off = cfg.get('evening_offset', 1) if EDITION == 'aksam' else 0
+    return cfg['monthly_styles'][((d.year * 12 + d.month) - (y0 * 12 + m0) + off) % len(cfg['monthly_styles'])]
 
 
 async def main():
     src, out = sys.argv[1], pathlib.Path(sys.argv[2]).resolve(); out.mkdir(parents=True, exist_ok=True)
     mode = sys.argv[3] if len(sys.argv) > 3 else 'auto'
-    D = json.load(open(src)); items = D['items']
+    global EDITION
+    D = json.load(open(src)); items = D['items']; EDITION = D.get('edition', 'sabah')
+    import common; common.BRAND_SUB = 'AKŞAMI' if EDITION == 'aksam' else 'GÜNDEMİ'
     d = datetime.date.fromisoformat(D.get('iso', datetime.date.today().isoformat()))
     from playwright.async_api import async_playwright
     async with async_playwright() as pw:

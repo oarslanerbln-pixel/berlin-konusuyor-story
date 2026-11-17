@@ -14,7 +14,8 @@ def sh(*a):
 
 def main():
     src = pathlib.Path(sys.argv[1]).resolve(); D = json.load(open(src))
-    iso = D['iso']; out = ROOT / 'out' / iso; dst = ROOT / 'd' / iso
+    iso = D['iso']; ed = D.get('edition', 'sabah'); slug = iso + ('-aksam' if ed == 'aksam' else '')
+    out = ROOT / 'out' / slug; dst = ROOT / 'd' / slug
     shutil.rmtree(out, ignore_errors=True)
     sh(sys.executable, str(ROOT / 'engine' / 'render.py'), str(src), str(out), 'auto')
     shutil.rmtree(dst, ignore_errors=True); dst.mkdir(parents=True)
@@ -24,26 +25,26 @@ def main():
         shutil.copy(mp4, dst / f'{i:02d}.mp4'); shutil.copy(jpg, dst / f'{i:02d}.jpg')
         items.append(dict(idx=i, title=it['title'], tag=it['tag'], source=it['source'], style=mp4.stem.split('_', 1)[1],
                           sensitive=bool(it.get('sensitive')), sources_n=it.get('sources_n', 2),
-                          video_url=f'{BASE}/d/{iso}/{i:02d}.mp4', poster_url=f'{BASE}/d/{iso}/{i:02d}.jpg'))
-    man = dict(date=iso, built=datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds'),
+                          video_url=f'{BASE}/d/{slug}/{i:02d}.mp4', poster_url=f'{BASE}/d/{slug}/{i:02d}.jpg'))
+    man = dict(date=iso, edition=ed, built=datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds'),
                needs_approval=D.get('needs_approval', True) or any(x['sensitive'] or x['sources_n'] < 2 for x in items),
                items=items)
     json.dump(man, open(dst / 'manifest.json', 'w'), ensure_ascii=False, indent=1)
-    json.dump(man, open(ROOT / 'd' / 'latest.json', 'w'), ensure_ascii=False, indent=1)
+    json.dump(man, open(ROOT / 'd' / ('latest-aksam.json' if ed == 'aksam' else 'latest.json'), 'w'), ensure_ascii=False, indent=1)
     cards = ''.join(f'<figure><video src="{x["idx"]:02d}.mp4" poster="{x["idx"]:02d}.jpg" controls playsinline></video>'
                     f'<figcaption><b>{html.escape(x["tag"])}</b> {html.escape(x["title"])}<br><small>Kaynak: {html.escape(x["source"])} · {x["style"]}</small></figcaption></figure>'
                     for x in items)
     (dst / 'index.html').write_text(
         f'<!doctype html><html lang="tr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
-        f'<title>Berlin Gündemi · {iso}</title><style>body{{font:16px system-ui;background:#111;color:#eee;margin:0;padding:16px}}'
+        f'<title>{'Berlin Akşamı' if ed == 'aksam' else 'Berlin Gündemi'} · {iso}</title><style>body{{font:16px system-ui;background:#111;color:#eee;margin:0;padding:16px}}'
         f'h1{{font-size:20px}}figure{{margin:0 0 22px}}video{{width:100%;max-width:420px;border-radius:12px;display:block}}'
         f'figcaption{{margin-top:8px;max-width:420px}}b{{background:#C8102E;padding:2px 6px;border-radius:4px;margin-right:6px}}</style>'
-        f'<h1>Berlin Gündemi · {iso}</h1>{cards}</html>')
-    print(json.dumps(dict(preview=f'{BASE}/d/{iso}/', manifest=f'{BASE}/d/latest.json', needs_approval=man['needs_approval'])))
+        f'<h1>{'Berlin Akşamı' if ed == 'aksam' else 'Berlin Gündemi'} · {iso}</h1>{cards}</html>')
+    print(json.dumps(dict(preview=f'{BASE}/d/{slug}/', manifest=f'{BASE}/d/latest.json', needs_approval=man['needs_approval'])))
     if '--no-push' not in sys.argv:
         sh('git', 'add', 'd', 'data')
         sh('git', '-c', 'user.name=Berlin Konusuyor Bot', '-c', 'user.email=oarslanerbln-pixel@users.noreply.github.com',
-           'commit', '-qm', f'Gündem {iso}')
+           'commit', '-qm', f'{"Akşam" if ed == "aksam" else "Gündem"} {iso}')
         sh('git', '-c', 'push.negotiate=true', 'push', '-q', 'origin', 'HEAD:main')
 
 

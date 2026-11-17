@@ -5,6 +5,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 FONTS = ROOT / 'fonts'
 P = json.load(open(ROOT / 'assets' / 'logo_paths.json'))
 RED, BLK, CREAM = '#C8102E', '#111111', '#EEE7D8'
+BRAND_SUB = 'GÜNDEMİ'  # 'AKŞAMI' for the evening edition (set by render.py)
 
 LAT = 'U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2212'
 EXT = 'U+0100-0130,U+0132-02BA,U+02BD-02C5,U+1E00-1EFF'
@@ -56,7 +57,7 @@ def wrap(text, n):
 def brand(color='#fff', accent='#F05A6E', icon_top='#fff'):
     return (f'<div class="brand" style="position:absolute;left:80px;top:250px;display:flex;align-items:center;gap:18px;'
             f'color:{color};font:600 22px/1.25 IN;letter-spacing:5px;z-index:20">{b2(78, icon_top)}'
-            f'<span>BERLİN<i style="font-style:normal;color:{accent};display:block">GÜNDEMİ</i></span></div>')
+            f'<span>BERLİN<i style="font-style:normal;color:{accent};display:block">{BRAND_SUB}</i></span></div>')
 
 
 def page(body, css='', js='', data=None):

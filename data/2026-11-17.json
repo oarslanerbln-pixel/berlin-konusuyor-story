@@ -7,7 +7,9 @@
    "body": "SPD, Yeşiller ve Sol Parti'nin liderlik grubu 18 Kasım'da yeniden toplanıyor. Parti tabanları onaylarsa yeni hükümet Ocak'ın ikinci yarısında kurulabilir. Elif Eralp, partisinin Berlin'deki ilk belediye başkanı olabilir.",
    "source": "dpa",
    "etki": "Şimdilik bir değişiklik yok; yeni hükümetin kira ve vatandaşlık politikaları Ocak'tan itibaren netleşecek.",
-   "sources_n": 2
+   "sources_n": 2,
+   "key": "berlin-koalisyon-rgr",
+   "update_of": null
   },
   {
    "tag": "HAVA",
@@ -15,7 +17,9 @@
    "body": "Bulutlu, yağmurlu ve ılık bir hafta başı. İlerleyen günlerde hava belirgin şekilde soğuyor; yer yer gök gürültülü sağanak bekleniyor.",
    "source": "Tagesspiegel",
    "etki": "Bu hafta şemsiye ve kat kat giyim; hafta sonuna doğru sıcaklıklar belirgin düşüyor.",
-   "sources_n": 2
+   "sources_n": 2,
+   "key": "berlin-hava-kasim",
+   "update_of": null
   },
   {
    "tag": "ŞEHİR",
@@ -23,9 +27,12 @@
    "body": "Resmî sezon 22 Kasım'da başlıyor. Lichtenberg ve Potsdamer Platz'taki ilk pazarlar şimdiden açık; kent genelinde 100'den fazla pazar kurulacak.",
    "source": "visitBerlin · dpa",
    "etki": "Lichtenberg ve Potsdamer Platz pazarları açık; çoğu pazar 22 Kasım'da açılıyor.",
-   "sources_n": 2
+   "sources_n": 2,
+   "key": "berlin-noel-pazarlari-2026",
+   "update_of": null
   }
  ],
  "iso": "2026-11-17",
- "needs_approval": true
+ "needs_approval": true,
+ "edition": "sabah"
 }

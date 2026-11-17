@@ -219,7 +219,7 @@ def prisma(it, meta):
     face_a = (f'<div class="fa">{tv(400)}<div class="w1">BERLİN</div><div class="w2">KONUŞUYOR</div>'
               '<div class="w3">HER SABAH 08:30 · GÜNDEM</div></div>')
     face_b = (f'<div class="fb"><span class="tg">{tr_upper(it["tag"])}</span><h1>{it["title"]}</h1><i class="bar"></i>'
-              f'<p>{it["body"]}</p><div class="src">KAYNAK: {it["source"]}</div>'
+              f'<p>{it["body"]}</p>' + (f'<div class="et"><b>SANA ETKİSİ</b>{it["etki"]}</div>' if it.get('etki') else '') + f'<div class="src">KAYNAK: {it["source"]}</div>'
               f'<div class="ft">{b2(52, "#111")}<span>BERLİN GÜNDEMİ · {meta["idx"]}/{meta["total"]}</span></div></div>')
     face_c = '<div class="fc0"></div>'
     slats = ''.join(
@@ -244,6 +244,8 @@ def prisma(it, meta):
 .fb h1{{font:800 84px/1.06 PO;color:#111;letter-spacing:-1.5px;margin:34px 0 30px}}
 .bar{{display:block;width:120px;height:10px;background:{RED};border-radius:5px;margin-bottom:34px}}
 .fb p{{font:500 38px/1.48 IN;color:#262626}}
+.fb .et{{margin-top:24px;border-left:8px solid {RED};background:rgba(200,16,46,.07);padding:14px 20px;font:600 32px/1.4 IN;color:#111}}
+.fb .et b{{display:block;font:800 20px PO;letter-spacing:4px;color:{RED}}}
 .src{{position:absolute;left:70px;bottom:160px;font:600 24px IN;letter-spacing:3px;color:#777}}
 .ft{{position:absolute;left:70px;right:70px;bottom:60px;display:flex;align-items:center;gap:16px;font:600 22px IN;letter-spacing:4px;color:#111;
   border-top:2px solid #111;padding-top:18px}}

@@ -1,7 +1,7 @@
 {
  "date": "2026-11-17",
  "edition": "ogle",
- "built": "2026-11-17T13:49:03+00:00",
+ "built": "2026-11-17T14:50:11+00:00",
  "needs_approval": true,
  "items": [
   {
@@ -9,7 +9,7 @@
    "title": "Berlin–Hannover: trenler yeniden yolda",
    "tag": "GÜNCELLEME",
    "source": "dpa · NDR",
-   "style": "ubahn2",
+   "style": "neon",
    "sensitive": false,
    "sources_n": 2,
    "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-17-ogle/01.mp4",
@@ -20,7 +20,7 @@
    "title": "Ringbahn'a 14 aylık kesinti planı",
    "tag": "ULAŞIM",
    "source": "Berliner Kurier · nd",
-   "style": "ubahn2",
+   "style": "mauer",
    "sensitive": false,
    "sources_n": 2,
    "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-17-ogle/02.mp4",
@@ -31,7 +31,7 @@
    "title": "İstilacı karınca türü Berlin'de görüldü",
    "tag": "ŞEHİR",
    "source": "dpa · rbb24",
-   "style": "ubahn2",
+   "style": "prisma",
    "sensitive": false,
    "sources_n": 2,
    "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-17-ogle/03.mp4",

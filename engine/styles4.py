@@ -108,13 +108,15 @@ def mauer(it, meta):
             '<canvas id="sp" width="1080" height="1920" style="position:absolute;inset:0;z-index:3"></canvas>'
             + brand(color=BLK, accent=RED, icon_top=BLK) + count(meta, '#333') +
             '<span style="position:absolute;opacity:0;font:800 20px PO">AİŞĞÇÖÜ</span>' +
-            f'<div id="ps"><p>{it["body"]}</p><div class="src">KAYNAK: {it["source"]}</div></div>')
+            f'<div id="ps"><p>{it["body"]}</p>' + (f'<div class="et"><b>SANA ETKİSİ</b>{it["etki"]}</div>' if it.get('etki') else '') + f'<div class="src">KAYNAK: {it["source"]}</div></div>')
     top = 600 + len(lines) * 112 + 60
     css = f"""#s{{background:#BDBAB2}}
 #ps{{position:absolute;left:90px;right:110px;top:{top}px;background:#F2EFE6;padding:40px 44px 74px;z-index:4;transform:rotate(-1.2deg);
   transform-origin:50% 0;box-shadow:0 6px 0 rgba(0,0,0,.08)}}
 #ps::after{{content:'';position:absolute;inset:0;background:linear-gradient(100deg,transparent 30%,rgba(0,0,0,.05) 32%,transparent 34%,transparent 70%,rgba(0,0,0,.06) 72%,transparent 74%)}}
 #ps p{{font:500 35px/1.48 IN;color:#1c1c1c}}
+#ps .et{{margin-top:20px;border-left:8px solid {RED};background:rgba(200,16,46,.07);padding:12px 18px;font:600 30px/1.4 IN;color:#111}}
+#ps .et b{{display:block;font:800 19px PO;letter-spacing:4px;color:{RED}}}
 .src{{position:absolute;left:44px;bottom:24px;font:600 22px IN;letter-spacing:3px;color:#777}}"""
     js = r"""
 const $=i=>document.getElementById(i);

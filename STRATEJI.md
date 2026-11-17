@@ -1,10 +1,10 @@
 # Berlin Konuşuyor – Yayın stratejisi (sabah + akşam)
 
-Bu dosya iki günlük görevin (07:10 sabah, 19:20 akşam) ve haftalık raporun ortak kural kitabıdır. Değişiklik buraya yazılır, görevler her çalışmada bu dosyayı okur.
+Bu dosya iki günlük görevin (07:52 sabah, 19:27 akşam; paylaşımdan ~30 dk önce) ve haftalık raporun ortak kural kitabıdır. Değişiklik buraya yazılır, görevler her çalışmada bu dosyayı okur.
 
 ## 1. İki baskı, iki farklı görev
 
-| | Sabah · "Berlin Gündemi" (07:10 üretim) | Akşam · "Berlin Akşamı" (19:20 üretim) |
+| | Sabah · "Berlin Gündemi" (07:52 üretim → 08:30 paylaşım) | Akşam · "Berlin Akşamı" (19:27 üretim → 20:00 paylaşım) |
 |---|---|---|
 | Soru | Bugün ne oluyor, neye dikkat etmeliyim? | Bugün ne oldu, yarın ne var? |
 | Zaman penceresi | Son 24 saat + bugünün planlı olayları | Bugün 08:00'den sonra yayımlanan haberler + yarının planlı olayları |

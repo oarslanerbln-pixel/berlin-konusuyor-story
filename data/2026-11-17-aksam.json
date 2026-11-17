@@ -1,0 +1,44 @@
+{
+ "date": "17 Kasım 2026 · Salı",
+ "iso": "2026-11-17",
+ "edition": "aksam",
+ "needs_approval": true,
+ "items": [
+  {
+   "key": "gasag-gaz-zammi-2027",
+   "update_of": null,
+   "tag": "EKONOMİ",
+   "title": "Gasag'dan zam: gaz Ocak'ta pahalanıyor",
+   "body": "Gasag, temel tarifte (Grundversorgung) Ocak'tan itibaren gazın kWh fiyatını yaklaşık 3 cent, aylık sabit ücreti 2,38 € artırıyor. Sabit ücret 20 yıldır ilk kez yükseliyor. Gerekçe: İran savaşı ve şebeke ücretleri.",
+   "etki": "Gazla ısınan ortalama bir dairede ayda ~32 €, yalnızca ocak ve sıcak suda ~10 € fazla. Tarifini karşılaştır.",
+   "source": "dpa · rbb24 Inforadio",
+   "sources_n": 2,
+   "sensitive": false,
+   "published": "2026-11-17T16:19"
+  },
+  {
+   "key": "yarin-berlin-2026-11-18",
+   "update_of": null,
+   "tag": "YARIN",
+   "title": "Yarın: yağmur, Charité grevi, zirve hazırlığı",
+   "body": "DWD: Çarşamba bulutlu ve sağanak yağmurlu, 8–12 derece, yer yer sert rüzgâr. Charité'de grev sürüyor; 09.00'da Charité Mitte önünde stajyer mitingi var. Ukrayna zirvesine ilk konuklar akşam gelebilir.",
+   "etki": "Perşembe ve Cuma şehirde geniş yol kapanmaları bekleniyor; yola çıkmadan VIZ Berlin'e bak.",
+   "source": "DWD · rbb24 · dpa",
+   "sources_n": 2,
+   "sensitive": false,
+   "published": "2026-11-17T17:34"
+  },
+  {
+   "key": "expo-2035-berlin-basvuru",
+   "update_of": null,
+   "tag": "SORU",
+   "title": "Berlin Expo 2035'e tek başına aday olmalı mı?",
+   "body": "Brandenburg ortak Expo 2035 başvurusundan çekildi; Schönefeld'deki alan ulaşım ve planlama riskleri nedeniyle elendi. Senato şimdi Pankow'daki Buchholz-Nord alanını inceliyor. Sence Berlin yalnız devam etmeli mi?",
+   "etki": "Ankete katıl / cevabını DM'den yaz",
+   "source": "rbb24 · Tagesspiegel",
+   "sources_n": 2,
+   "sensitive": false,
+   "published": "2026-11-17T13:31"
+  }
+ ]
+}

@@ -1,13 +1,14 @@
 {
  "date": "2026-11-17",
- "built": "2026-11-16T23:47:03+00:00",
+ "edition": "sabah",
+ "built": "2026-11-17T06:56:25+00:00",
  "needs_approval": true,
  "items": [
   {
    "idx": 1,
-   "title": "Koalisyonda ilk kararlar çarşamba",
-   "tag": "SİYASET",
-   "source": "dpa",
+   "title": "Elektrik vergisi bu akşam masada",
+   "tag": "EKONOMİ",
+   "source": "tagesschau · Stern",
    "style": "kiez",
    "sensitive": false,
    "sources_n": 2,
@@ -16,9 +17,9 @@
   },
   {
    "idx": 2,
-   "title": "Haftaya değişken başlangıç",
-   "tag": "HAVA",
-   "source": "Tagesspiegel",
+   "title": "Berlin–Hannover hattında arıza sürüyor",
+   "tag": "ULAŞIM",
+   "source": "rbb24 · dpa",
    "style": "kiez",
    "sensitive": false,
    "sources_n": 2,
@@ -27,11 +28,11 @@
   },
   {
    "idx": 3,
-   "title": "Noel pazarı sezonu kapıda",
-   "tag": "ŞEHİR",
-   "source": "visitBerlin · dpa",
+   "title": "Toplu sınır dışı iddiasına yalanlama",
+   "tag": "TOPLUM",
+   "source": "DMM · AA",
    "style": "kiez",
-   "sensitive": false,
+   "sensitive": true,
    "sources_n": 2,
    "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-17/03.mp4",
    "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-17/03.jpg"

@@ -1,38 +1,44 @@
 {
  "date": "17 Kasım 2026 · Salı",
+ "iso": "2026-11-17",
+ "edition": "sabah",
+ "needs_approval": true,
  "items": [
   {
-   "tag": "SİYASET",
-   "title": "Koalisyonda ilk kararlar çarşamba",
-   "body": "SPD, Yeşiller ve Sol Parti'nin liderlik grubu 18 Kasım'da yeniden toplanıyor. Parti tabanları onaylarsa yeni hükümet Ocak'ın ikinci yarısında kurulabilir. Elif Eralp, partisinin Berlin'deki ilk belediye başkanı olabilir.",
-   "source": "dpa",
-   "etki": "Şimdilik bir değişiklik yok; yeni hükümetin kira ve vatandaşlık politikaları Ocak'tan itibaren netleşecek.",
+   "key": "koalisyon-elektrik-vergisi-indirimi",
+   "update_of": null,
+   "tag": "EKONOMİ",
+   "title": "Elektrik vergisi bu akşam masada",
+   "body": "Hükümet ortakları bu akşam Başbakanlıkta toplanıyor. Gündemde elektrik vergisinin hanelere de indirilmesi, maaşlarda 'soğuk ilerleme' ayarı ve emeklilik reformu var. Asıl tartışma: parası nereden bulunacak?",
+   "etki": "İndirim çıkarsa 3 kişilik bir hane yılda yaklaşık 70–90 € tasarruf eder. Sonucu akşam baskısında veriyoruz.",
+   "source": "tagesschau · Stern",
    "sources_n": 2,
-   "key": "berlin-koalisyon-rgr",
-   "update_of": null
+   "sensitive": false,
+   "published": "2026-11-17T06:44"
   },
   {
-   "tag": "HAVA",
-   "title": "Haftaya değişken başlangıç",
-   "body": "Bulutlu, yağmurlu ve ılık bir hafta başı. İlerleyen günlerde hava belirgin şekilde soğuyor; yer yer gök gürültülü sağanak bekleniyor.",
-   "source": "Tagesspiegel",
-   "etki": "Bu hafta şemsiye ve kat kat giyim; hafta sonuna doğru sıcaklıklar belirgin düşüyor.",
+   "key": "bahn-berlin-hannover-arizasi",
+   "update_of": null,
+   "tag": "ULAŞIM",
+   "title": "Berlin–Hannover hattında arıza sürüyor",
+   "body": "Magdeburg yakınında çim biçme aracı demiryolu teknik donanımına zarar verdi. Bazı ICE'ler Hamburg üzerinden dolaştırılıyor, bazı seferler iptal. Hat zaten yenileme çalışması nedeniyle uzun sürüyordu.",
+   "etki": "Hannover ya da Batı Almanya yönüne gidiyorsan yola çıkmadan DB Navigator'dan seferini kontrol et.",
+   "source": "rbb24 · dpa",
    "sources_n": 2,
-   "key": "berlin-hava-kasim",
-   "update_of": null
+   "sensitive": false,
+   "published": "2026-11-17T06:45"
   },
   {
-   "tag": "ŞEHİR",
-   "title": "Noel pazarı sezonu kapıda",
-   "body": "Resmî sezon 22 Kasım'da başlıyor. Lichtenberg ve Potsdamer Platz'taki ilk pazarlar şimdiden açık; kent genelinde 100'den fazla pazar kurulacak.",
-   "source": "visitBerlin · dpa",
-   "etki": "Lichtenberg ve Potsdamer Platz pazarları açık; çoğu pazar 22 Kasım'da açılıyor.",
+   "key": "dmm-almanya-sinir-disi-iddiasi",
+   "update_of": null,
+   "tag": "TOPLUM",
+   "title": "Toplu sınır dışı iddiasına yalanlama",
+   "body": "İletişim Başkanlığı'na bağlı DMM, Almanya'da yasal ikamet hakkı olmayan 500 kişinin özel uçuşlarla Türkiye'ye gönderileceği yönündeki paylaşımların gerçeği yansıtmadığını açıkladı.",
+   "etki": "Bu tür mesajları paylaşmadan önce DMM ya da Başkonsolosluk gibi resmî kaynaklardan kontrol et.",
+   "source": "DMM · AA",
    "sources_n": 2,
-   "key": "berlin-noel-pazarlari-2026",
-   "update_of": null
+   "sensitive": true,
+   "published": "2026-11-16T09:42"
   }
- ],
- "iso": "2026-11-17",
- "needs_approval": true,
- "edition": "sabah"
+ ]
 }

@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-18",
+ "edition": "sabah",
+ "built": "2026-11-18T06:59:00+00:00",
+ "needs_approval": true,
+ "items": [
+  {
+   "idx": 1,
+   "title": "Elektrik vergisi 2027'de herkese iniyor",
+   "tag": "GÜNCELLEME",
+   "source": "Tagesspiegel · ZDFheute",
+   "style": "sabah",
+   "sensitive": false,
+   "sources_n": 2,
+   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-18/01.mp4",
+   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-18/01.jpg"
+  },
+  {
+   "idx": 2,
+   "title": "Bugün 13.00'ten itibaren fırtına uyarısı",
+   "tag": "HAVA",
+   "source": "DWD · t-online",
+   "style": "sabah",
+   "sensitive": false,
+   "sources_n": 2,
+   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-18/02.mp4",
+   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-18/02.jpg"
+  },
+  {
+   "idx": 3,
+   "title": "CDU/CSU: vatandaşlık için 8 yıl, B2 dil",
+   "tag": "VATANDAŞLIK",
+   "source": "Bild · dts",
+   "style": "sabah",
+   "sensitive": true,
+   "sources_n": 2,
+   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-18/03.mp4",
+   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-18/03.jpg"
+  }
+ ]
+}

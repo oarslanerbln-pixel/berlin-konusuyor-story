@@ -1,0 +1,44 @@
+{
+ "date": "18 Kasım 2026 · Çarşamba",
+ "iso": "2026-11-18",
+ "edition": "sabah",
+ "needs_approval": true,
+ "items": [
+  {
+   "key": "koalisyon-elektrik-vergisi-karar",
+   "update_of": "koalisyon-elektrik-vergisi-indirimi",
+   "tag": "GÜNCELLEME",
+   "title": "Elektrik vergisi 2027'de herkese iniyor",
+   "body": "Gece 02.00'ye kadar süren koalisyon zirvesinde karar çıktı: Elektrik vergisi Ocak 2027'den itibaren hanelerde de kWh başına 2,05 centten AB alt sınırı 0,1 cente iniyor. Para şimdilik sadece 2027 için bulundu.",
+   "etki": "Fatura kWh başına ~2 cent ucuzlar, çoğu hanede ayda birkaç euro. Akaryakıta fiyat tavanı 1 Ocak'ta.",
+   "source": "Tagesspiegel · ZDFheute",
+   "sources_n": 2,
+   "sensitive": false,
+   "published": "2026-11-18T07:20"
+  },
+  {
+   "key": "berlin-firtina-uyarisi-18-kasim",
+   "update_of": null,
+   "tag": "HAVA",
+   "title": "Bugün 13.00'ten itibaren fırtına uyarısı",
+   "body": "DWD Berlin için resmî fırtına uyarısı verdi: 13.00–21.00 arası rüzgâr saatte 60–75 km, sağanak ve kısa gök gürültüsünde 90 km'ye çıkabilir. Gün boyu yer yer yağmur, en fazla 13 derece. Perşembe hava sakinleşiyor.",
+   "etki": "Balkondaki eşyaları sabitle; öğleden sonra ağaç altlarından ve iskelelerden uzak dur.",
+   "source": "DWD · t-online",
+   "sources_n": 2,
+   "sensitive": false,
+   "published": "2026-11-18T04:09"
+  },
+  {
+   "key": "union-vatandaslik-sartlari-8-yil",
+   "update_of": null,
+   "tag": "VATANDAŞLIK",
+   "title": "CDU/CSU: vatandaşlık için 8 yıl, B2 dil",
+   "body": "Birlik meclis grubundan Krings ve Throm'un yeni konsepti: Vatandaşlık için asgari ikamet 5 yıldan 8 yıla çıksın, dil şartı B1'den B2'ye yükselsin, çifte vatandaşlık yeniden istisna olsun. Bu bir yasa değil, öneri.",
+   "etki": "Şu an kurallar aynı: 5 yıl, B1, çifte vatandaşlık serbest. Değişiklik için yasa ve SPD'nin onayı gerekir.",
+   "source": "Bild · dts",
+   "sources_n": 2,
+   "sensitive": true,
+   "published": "2026-11-18T06:45"
+  }
+ ]
+}

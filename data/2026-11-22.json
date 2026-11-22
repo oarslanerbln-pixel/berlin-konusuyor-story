@@ -1,0 +1,44 @@
+{
+ "date": "22 Kasım 2026 · Pazar",
+ "iso": "2026-11-22",
+ "edition": "sabah",
+ "needs_approval": true,
+ "items": [
+  {
+   "key": "berlin-linke-emde-ihrac-oylamasi",
+   "update_of": null,
+   "tag": "SİYASET",
+   "title": "Berlin koalisyonu için kritik Salı",
+   "body": "Linke meclis grubu Salı günü milletvekili Vanessa Emde'nin ihracını oylayacak; üçte iki çoğunluk gerekiyor. FU'dan seçim araştırmacısı Thorsten Faas'a göre ihraç çıkmazsa Linke–Yeşiller–SPD görüşmeleri bitebilir.",
+   "etki": "Koalisyon kurulursa Elif Eralp, Linke'den ilk Berlin Belediye Başkanı olabilir. Karar Salı belli olacak.",
+   "source": "dpa · Stern · Zeit",
+   "sources_n": 3,
+   "sensitive": true,
+   "published": "2026-11-22T05:02"
+  },
+  {
+   "key": "stadtbahn-kesinti-kar-23-kasim",
+   "update_of": null,
+   "tag": "ULAŞIM",
+   "title": "Stadtbahn kapalı, yarın kar ve buzlanma",
+   "body": "S3, S5, S7 ve S9 Friedrichstraße–Tiergarten arasında Pazartesi sabahına kadar çalışmıyor; yerine S7A ve S7B otobüsleri var. RE1, RE2, RE7 de Ostbahnhof–Charlottenburg arası kesik. DWD gece kar sağanağı bekliyor.",
+   "etki": "Bugün U2 ya da Ringbahn'ı (S41/S42) kullan. Pazartesi yollar kaygan olabilir, erken çık.",
+   "source": "rbb24 · Tagesspiegel · DWD",
+   "sources_n": 3,
+   "sensitive": false,
+   "published": "2026-11-21T10:14"
+  },
+  {
+   "key": "haftanin-ozeti-2026-47",
+   "update_of": null,
+   "tag": "ÖZET",
+   "title": "Haftanın özeti: fatura ve vatandaşlık",
+   "body": "Elektrik vergisi Ocak 2027'den hanelerde de AB alt sınırına iniyor. Gasag temel tarifede gaz Ocak'ta pahalanıyor. CDU/CSU vatandaşlık için 8 yıl ve B2 önerdi; bu henüz yasa değil.",
+   "etki": "Gazla ısınıyorsan tarifeni karşılaştır. Vatandaşlıkta şu an hâlâ 5 yıl ve B1 geçerli.",
+   "source": "Tagesspiegel · rbb24 · dts",
+   "sources_n": 2,
+   "sensitive": true,
+   "published": "2026-11-18T07:20"
+  }
+ ]
+}

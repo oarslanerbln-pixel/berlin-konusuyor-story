@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-22",
+ "edition": "sabah",
+ "built": "2026-11-22T06:57:18+00:00",
+ "needs_approval": true,
+ "items": [
+  {
+   "idx": 1,
+   "title": "Berlin koalisyonu için kritik Salı",
+   "tag": "SİYASET",
+   "source": "dpa · Stern · Zeit",
+   "style": "sabah",
+   "sensitive": true,
+   "sources_n": 3,
+   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-22/01.mp4",
+   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-22/01.jpg"
+  },
+  {
+   "idx": 2,
+   "title": "Stadtbahn kapalı, yarın kar ve buzlanma",
+   "tag": "ULAŞIM",
+   "source": "rbb24 · Tagesspiegel · DWD",
+   "style": "sabah",
+   "sensitive": false,
+   "sources_n": 3,
+   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-22/02.mp4",
+   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-22/02.jpg"
+  },
+  {
+   "idx": 3,
+   "title": "Haftanın özeti: fatura ve vatandaşlık",
+   "tag": "ÖZET",
+   "source": "Tagesspiegel · rbb24 · dts",
+   "style": "sabah",
+   "sensitive": true,
+   "sources_n": 2,
+   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-22/03.mp4",
+   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-22/03.jpg"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "date": "22 Kasım 2026 · Pazar",
+ "iso": "2026-11-22",
+ "edition": "aksam",
+ "needs_approval": true,
+ "items": [
+  {
+   "key": "polis-internetwache-kapali",
+   "update_of": null,
+   "tag": "ŞEHİR",
+   "title": "Polisin internet karakolu kapalı",
+   "body": "Berlin Polisi'nin Internetwache'si bir güvenlik açığı yüzünden önlem olarak kapatıldı, Pazar günü de açılmadı. Yazılım güncellemesi bitene kadar çevrimiçi şikâyet, ihbar ve gösteri bildirimi yok. Açılış tarihi belli değil.",
+   "etki": "Şikâyetini herhangi bir polis karakoluna bizzat ver; acil durumda 110'u ara.",
+   "source": "rbb24 · Berliner Zeitung",
+   "sources_n": 2,
+   "sensitive": false,
+   "published": "2026-11-22T16:00"
+  },
+  {
+   "key": "yarin-berlin-2026-11-23",
+   "update_of": null,
+   "tag": "YARIN",
+   "title": "Yarın: Noel pazarları açılıyor",
+   "body": "Pazartesi Gendarmenmarkt (2 €, hafta içi 11–14 arası ücretsiz) ve Alexanderplatz (ücretsiz) 11.00–22.00 açık; Rotes Rathaus, Potsdamer Platz ve Charlottenburg Sarayı'nda da açılış var. DWD: 2–4 derece, yer yer karla karışık yağmur.",
+   "etki": "Sabah erken saatlerde yollar buzlu olabilir. U3, Warschauer Str. yönünde Podbielskiallee'de durmuyor.",
+   "source": "berlin.de · DWD · VIZ Berlin",
+   "sources_n": 3,
+   "sensitive": false,
+   "published": "2026-11-22T08:57"
+  },
+  {
+   "key": "berlin-silvester-havai-fisek-yasagi",
+   "update_of": null,
+   "tag": "SORU",
+   "title": "Yılbaşında Berlin'de fişek yasağı olsun mu?",
+   "body": "Berlin hastaneler birliği, itfaiye birliği ve polis sendikası GdP bu yılbaşı için yasak istiyor; eyaletin kendi kuralını koyabilmesi talep ediliyor. Geçen yılbaşı tek bir klinik 30'dan fazla ağır yaralı tedavi etti. Sence?",
+   "etki": "Ankete katıl / cevabını DM'den yaz",
+   "source": "rbb24 · dpa",
+   "sources_n": 2,
+   "sensitive": false,
+   "published": "2026-11-22T08:09"
+  }
+ ]
+}

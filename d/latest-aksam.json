@@ -1,41 +1,41 @@
 {
- "date": "2026-11-17",
+ "date": "2026-11-22",
  "edition": "aksam",
- "built": "2026-11-17T18:35:04+00:00",
+ "built": "2026-11-22T18:34:08+00:00",
  "needs_approval": true,
  "items": [
   {
    "idx": 1,
-   "title": "Gasag'dan zam: gaz Ocak'ta pahalanıyor",
-   "tag": "EKONOMİ",
-   "source": "dpa · rbb24 Inforadio",
+   "title": "Polisin internet karakolu kapalı",
+   "tag": "ŞEHİR",
+   "source": "rbb24 · Berliner Zeitung",
    "style": "neon",
    "sensitive": false,
    "sources_n": 2,
-   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-17-aksam/01.mp4",
-   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-17-aksam/01.jpg"
+   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-22-aksam/01.mp4",
+   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-22-aksam/01.jpg"
   },
   {
    "idx": 2,
-   "title": "Yarın: yağmur, Charité grevi, zirve hazırlığı",
+   "title": "Yarın: Noel pazarları açılıyor",
    "tag": "YARIN",
-   "source": "DWD · rbb24 · dpa",
+   "source": "berlin.de · DWD · VIZ Berlin",
    "style": "neon",
    "sensitive": false,
-   "sources_n": 2,
-   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-17-aksam/02.mp4",
-   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-17-aksam/02.jpg"
+   "sources_n": 3,
+   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-22-aksam/02.mp4",
+   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-22-aksam/02.jpg"
   },
   {
    "idx": 3,
-   "title": "Berlin Expo 2035'e tek başına aday olmalı mı?",
+   "title": "Yılbaşında Berlin'de fişek yasağı olsun mu?",
    "tag": "SORU",
-   "source": "rbb24 · Tagesspiegel",
+   "source": "rbb24 · dpa",
    "style": "neon",
    "sensitive": false,
    "sources_n": 2,
-   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-17-aksam/03.mp4",
-   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-17-aksam/03.jpg"
+   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-22-aksam/03.mp4",
+   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-22-aksam/03.jpg"
   }
  ]
 }

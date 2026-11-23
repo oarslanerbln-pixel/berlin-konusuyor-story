@@ -1,0 +1,44 @@
+{
+ "date": "23 Kasım 2026 · Pazartesi",
+ "iso": "2026-11-23",
+ "edition": "sabah",
+ "needs_approval": true,
+ "items": [
+  {
+   "key": "ig-metall-uyari-grevi-bmw-mercedes",
+   "update_of": null,
+   "tag": "GREV",
+   "title": "Metal sektöründe bugün 24 saatlik grev",
+   "body": "IG Metall, BMW'nin Spandau fabrikası ile Mercedes'in Marienfelde ve Ludwigsfelde tesislerinde gün boyu uyarı grevi yapıyor. Sendika yüzde 5 zam istiyor; işverenler tek seferlik ödeme ve 2028'de yüzde 1,3 öneriyor.",
+   "etki": "Metal ya da elektrikte çalışıyorsan sendika duyurularını izle; Salı günü yeni grevler gündemde.",
+   "source": "rbb24 · Tagesspiegel",
+   "sources_n": 2,
+   "sensitive": false,
+   "published": "2026-11-23T06:56"
+  },
+  {
+   "key": "haftanin-takvimi-2026-48",
+   "update_of": null,
+   "tag": "TAKVİM",
+   "title": "Haftanın takvimi: buz, ayaz ve meclis",
+   "body": "DWD bu gece kar sağanağı ve buzlanma bekliyor (0 ila -2 derece). Salı kuru, en fazla 3 derece; Çarşamba -2 ile -4'e iniyor. Perşembe meclis, anayasaya Yahudi yaşamını ve ırkçılığa karşı korumayı ekleme önerilerini görüşüyor.",
+   "etki": "Hafta boyu sabahları kaldırım ve bisiklet yolları kaygan olabilir; erken çık, kalın giyin.",
+   "source": "DWD · Tagesspiegel · SZ",
+   "sources_n": 2,
+   "sensitive": true,
+   "published": "2026-11-23T05:21"
+  },
+  {
+   "key": "molln-saldirisi-34-yil-anma",
+   "update_of": null,
+   "tag": "TOPLULUK",
+   "title": "Mölln saldırısının 34. yılında anma",
+   "body": "23 Kasım 1992'de Mölln'deki ırkçı kundaklamada Bahide Arslan, Yeliz Arslan ve Ayşe Yılmaz hayatını kaybetti. Bugün çelenk, yürüyüş ve 17.30'da Fatih Sultan Camii'nde akşam namazıyla anılıyorlar.",
+   "etki": "Gitmek istersen tören 16.00'da Mühlenstraße 9'da başlıyor; düzenleyen TGS-H ve Mölln Belediyesi.",
+   "source": "Hürriyet · ha-ber.com",
+   "sources_n": 2,
+   "sensitive": true,
+   "published": "2026-11-22T07:46"
+  }
+ ]
+}

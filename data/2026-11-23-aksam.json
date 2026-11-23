@@ -1,0 +1,44 @@
+{
+ "date": "23 Kasım 2026 · Pazartesi",
+ "iso": "2026-11-23",
+ "edition": "aksam",
+ "needs_approval": true,
+ "items": [
+  {
+   "key": "berlin-okullar-bomba-tehdidi-eposta",
+   "update_of": null,
+   "tag": "OKUL",
+   "title": "14 Berlin okuluna e-postayla bomba tehdidi",
+   "body": "Pazartesi Almanya genelinde yüzlerce okula tehdit e-postası gönderildi; Berlin'de 14 okul etkilendi. Polis somut bir tehlike görmüyor. Bazı okullar önlem olarak boşaltıldı, çoğunda ders normale döndü.",
+   "etki": "Çocuğunun okulundan gelen duyuruları takip et; tehdit mesajlarını sosyal medyada yayma.",
+   "source": "rbb24 · Tagesspiegel",
+   "sources_n": 2,
+   "sensitive": true,
+   "published": "2026-11-23T15:02"
+  },
+  {
+   "key": "yarin-berlin-2026-11-24",
+   "update_of": null,
+   "tag": "YARIN",
+   "title": "Yarın: buzlu sabah, kuru ve soğuk gün",
+   "body": "DWD: Gece yer yer kar sağanağı, 0 ile -2 derece; yollarda buzlanma riski. Salı büyük ölçüde kuru, en fazla 1–3 derece. Stadtbahn'da 12 Aralık'a kadar yalnızca S-Bahn var; RE1 ve RE7 ikiye bölünmüş durumda.",
+   "etki": "Sabah erken çık; RE1/RE7 ile geliyorsan aktarmayı Charlottenburg ya da Ostbahnhof'ta planla.",
+   "source": "DWD · VBB",
+   "sources_n": 2,
+   "sensitive": false,
+   "published": "2026-11-23T05:21"
+  },
+  {
+   "key": "paket-20-kilo-siniri-verdi",
+   "update_of": null,
+   "tag": "SORU",
+   "title": "Paketlere 20 kilo sınırı gelmeli mi?",
+   "body": "Verdi bugün Brandenburg Kapısı'nda yasal 20 kilo sınırı istedi; şu an çoğu firma 31,5 kiloya kadar taşıyor. DHL de bağlayıcı sınırdan yana ama 23 kilo öneriyor; rakip firmalar el arabasıyla daha ağırını savunuyor. Sence?",
+   "etki": "Ankete katıl / cevabını DM'den yaz",
+   "source": "rbb24 · Zeit",
+   "sources_n": 2,
+   "sensitive": false,
+   "published": "2026-11-23T15:41"
+  }
+ ]
+}

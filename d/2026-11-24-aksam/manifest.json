@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-24",
+ "edition": "aksam",
+ "built": "2026-11-24T18:34:36+00:00",
+ "needs_approval": true,
+ "items": [
+  {
+   "idx": 1,
+   "title": "Linke, Emde'yi meclis grubundan çıkardı",
+   "tag": "GÜNCELLEME",
+   "source": "rbb24 · Tagesspiegel",
+   "style": "neon",
+   "sensitive": true,
+   "sources_n": 2,
+   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-24-aksam/01.mp4",
+   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-24-aksam/01.jpg"
+  },
+  {
+   "idx": 2,
+   "title": "Yarın: sert ayaz, borç saati 70 milyarda",
+   "tag": "YARIN",
+   "source": "DWD · Bund der Steuerzahler (dpa)",
+   "style": "neon",
+   "sensitive": false,
+   "sources_n": 2,
+   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-24-aksam/02.mp4",
+   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-24-aksam/02.jpg"
+  },
+  {
+   "idx": 3,
+   "title": "Kita yeri bulmakta zorlandın mı?",
+   "tag": "SORU",
+   "source": "dpa · BiB/DJI",
+   "style": "neon",
+   "sensitive": false,
+   "sources_n": 2,
+   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-24-aksam/03.mp4",
+   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-24-aksam/03.jpg"
+  }
+ ]
+}

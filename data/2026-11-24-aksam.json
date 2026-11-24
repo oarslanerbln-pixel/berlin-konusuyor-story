@@ -1,0 +1,44 @@
+{
+ "date": "24 Kasım 2026 · Salı",
+ "iso": "2026-11-24",
+ "edition": "aksam",
+ "needs_approval": true,
+ "items": [
+  {
+   "key": "berlin-linke-emde-ihrac-karari",
+   "update_of": "berlin-linke-emde-ihrac-oylamasi",
+   "tag": "GÜNCELLEME",
+   "title": "Linke, Emde'yi meclis grubundan çıkardı",
+   "body": "Karar çıktı: Linke meclis grubu Salı akşamı 33 oyla Vanessa Emde'nin ihracını onayladı, grup 43 kişiye indi. Emde milletvekilliğini bırakmıyor, bağımsız olarak devam edecek. SPD ve Yeşiller kararı olumlu karşıladı.",
+   "etki": "SPD'nin koalisyon şartı yerine geldi; Linke–Yeşiller–SPD görüşmeleri sürüyor.",
+   "source": "rbb24 · Tagesspiegel",
+   "sources_n": 2,
+   "sensitive": true,
+   "published": "2026-11-24T19:19"
+  },
+  {
+   "key": "yarin-berlin-2026-11-25",
+   "update_of": null,
+   "tag": "YARIN",
+   "title": "Yarın: sert ayaz, borç saati 70 milyarda",
+   "body": "DWD: Gece −2 ile −6 derece, yer yer buzlanma. Çarşamba parçalı bulutlu, yağış yok, en fazla 0–2 derece. Vergi Mükellefleri Birliği'nin Berlin borç saati 09.45'te ilk kez 70 milyar euroyu geçecek.",
+   "etki": "Sabah köprülerde ve ıslak zeminde buzlanmaya dikkat; bisiklet ve scooter ile yavaş git.",
+   "source": "DWD · Bund der Steuerzahler (dpa)",
+   "sources_n": 2,
+   "sensitive": false,
+   "published": "2026-11-24T17:19"
+  },
+  {
+   "key": "kita-yeri-eksik-anket-2026",
+   "update_of": null,
+   "tag": "SORU",
+   "title": "Kita yeri bulmakta zorlandın mı?",
+   "body": "BiB ve DJI'ye göre Berlin'de ihtiyacı olan 1–3 yaş arası çocukların yüzde 16'sı Kita yeri bulamıyor; evde çoğunlukla Almanca konuşulmayan ailelerde oran yüzde 33. Öte yandan bazı Kitalar çocuk arıyor. Sende durum ne?",
+   "etki": "Ankete katıl / cevabını DM'den yaz",
+   "source": "dpa · BiB/DJI",
+   "sources_n": 2,
+   "sensitive": false,
+   "published": "2026-11-24T13:43"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "date": "24 Kasım 2026 · Salı",
+ "iso": "2026-11-24",
+ "edition": "sabah",
+ "needs_approval": true,
+ "items": [
+  {
+   "key": "vw-tarif-pazarligi-emden-2026",
+   "update_of": null,
+   "tag": "EKONOMİ",
+   "title": "VW'de zorlu toplu sözleşme bugün başlıyor",
+   "body": "Volkswagen ile IG Metall bugün Emden'de masaya oturuyor; 9 fabrikada yaklaşık 120 bin kişi etkileniyor. VW 2027–2028 için sıfır zam, prim kesintisi ve esnek çalışma saati istiyor; sendika yüzde 5 zam talep ediyor.",
+   "etki": "VW'de çalışıyorsan sendikayı izle: barış yükümlülüğü 31 Aralık'ta bitiyor, sonra grev mümkün.",
+   "source": "tagesschau · ZDFheute",
+   "sources_n": 2,
+   "sensitive": false,
+   "published": "2026-11-24T06:04"
+  },
+  {
+   "key": "steglitz-schlossstrasse-blitzer-bierpinsel",
+   "update_of": null,
+   "tag": "ULAŞIM",
+   "title": "Schloßstraße'de yasağa uymayana 50 € ceza",
+   "body": "Bierpinsel'den cephe parçaları düştüğü için Steglitz'teki Schloßstraße'nin bir bölümü kapalı; yalnızca BVG otobüsleri ve teslimat araçları girebiliyor. Polis, yasağı delen sürücüler için mobil radar kurdu.",
+   "etki": "Arabayla girersen 50 € ceza. Yaya ve bisikletliler de çekiliyor ama ceza yok. Radar şimdilik yerinde.",
+   "source": "rbb24 · Tagesspiegel (dpa)",
+   "sources_n": 2,
+   "sensitive": false,
+   "published": "2026-11-23T14:38"
+  },
+  {
+   "key": "berlin-evsizlere-yardim-cumartesi",
+   "update_of": null,
+   "tag": "TOPLULUK",
+   "title": "Evsizlere her Cumartesi gönüllü desteği",
+   "body": "Boks antrenörü Nejat Kalaycı'nın başlattığı gönüllü projeye SA Akademie ve Gangway e.V. de katıldı. Ekip Cumartesi akşamı Zoo, Kurfürstendamm ve Stuttgarter Platz çevresinde evsizlere yiyecek ve içecek dağıttı.",
+   "etki": "Dağıtım 31 Aralık'a kadar her Cumartesi akşamı sürecek; işletmeler ve gönüllüler bağışla destek olabilir.",
+   "source": "Hürriyet Avrupa",
+   "sources_n": 1,
+   "sensitive": false,
+   "published": "2026-11-23T11:54"
+  }
+ ]
+}

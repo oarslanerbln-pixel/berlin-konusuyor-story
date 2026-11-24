@@ -1,41 +1,41 @@
 {
- "date": "2026-11-23",
+ "date": "2026-11-24",
  "edition": "sabah",
- "built": "2026-11-23T06:59:03+00:00",
+ "built": "2026-11-24T06:58:51+00:00",
  "needs_approval": true,
  "items": [
   {
    "idx": 1,
-   "title": "Metal sektöründe bugün 24 saatlik grev",
-   "tag": "GREV",
-   "source": "rbb24 · Tagesspiegel",
+   "title": "VW'de zorlu toplu sözleşme bugün başlıyor",
+   "tag": "EKONOMİ",
+   "source": "tagesschau · ZDFheute",
    "style": "sabah",
    "sensitive": false,
    "sources_n": 2,
-   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-23/01.mp4",
-   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-23/01.jpg"
+   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-24/01.mp4",
+   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-24/01.jpg"
   },
   {
    "idx": 2,
-   "title": "Haftanın takvimi: buz, ayaz ve meclis",
-   "tag": "TAKVİM",
-   "source": "DWD · Tagesspiegel · SZ",
+   "title": "Schloßstraße'de yasağa uymayana 50 € ceza",
+   "tag": "ULAŞIM",
+   "source": "rbb24 · Tagesspiegel (dpa)",
    "style": "sabah",
-   "sensitive": true,
+   "sensitive": false,
    "sources_n": 2,
-   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-23/02.mp4",
-   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-23/02.jpg"
+   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-24/02.mp4",
+   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-24/02.jpg"
   },
   {
    "idx": 3,
-   "title": "Mölln saldırısının 34. yılında anma",
+   "title": "Evsizlere her Cumartesi gönüllü desteği",
    "tag": "TOPLULUK",
-   "source": "Hürriyet · ha-ber.com",
+   "source": "Hürriyet Avrupa",
    "style": "sabah",
-   "sensitive": true,
-   "sources_n": 2,
-   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-23/03.mp4",
-   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-23/03.jpg"
+   "sensitive": false,
+   "sources_n": 1,
+   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-24/03.mp4",
+   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-24/03.jpg"
   }
  ]
 }

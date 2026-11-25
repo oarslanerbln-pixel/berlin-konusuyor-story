@@ -1,0 +1,44 @@
+{
+ "date": "25 Kasım 2026 · Çarşamba",
+ "iso": "2026-11-25",
+ "edition": "sabah",
+ "needs_approval": true,
+ "items": [
+  {
+   "key": "bundestag-butce-2027-genel-gorusme",
+   "update_of": null,
+   "tag": "SİYASET",
+   "title": "Bütçe haftası: Meclis'te bugün büyük tartışma",
+   "body": "Federal Meclis'te 2027 bütçesinin genel görüşmesi saat 09.00'da Şansölye Merz'in de katılımıyla başlıyor. 560 milyar euroluk rekor bütçede 210 milyarı aşan yeni borç tartışmanın odağında. Nihai oylama Cuma.",
+   "etki": "Emeklilik sigortasına federal katkı yaklaşık 2 milyar € azalıyor; kesin karar Cuma oylamasında.",
+   "source": "tagesschau · WirtschaftsWoche · stern",
+   "sources_n": 3,
+   "sensitive": false,
+   "published": "2026-11-25T07:32"
+  },
+  {
+   "key": "berlin-fernwaerme-ariza-gleisdreieck",
+   "update_of": null,
+   "tag": "ŞEHİR",
+   "title": "Kreuzberg'de kalorifer ve sıcak su geri geldi",
+   "body": "Gleisdreieck çevresinde yerin derinindeki bir boru arızası Salı günü yaklaşık 10 bin haneyi ısıtmasız bıraktı. Köthener Straße–Hafenplatz arasındaki 1.000 kadar hane gün boyu bekledi; BEW onarımı bu sabah erkenden bitirdi.",
+   "etki": "Evinde hâlâ ısınma ya da sıcak su yoksa hemen Hausverwaltung'a bildir; hava bugün de dondurucu.",
+   "source": "rbb24 · Tagesspiegel",
+   "sources_n": 2,
+   "sensitive": false,
+   "published": "2026-11-25T07:37"
+  },
+  {
+   "key": "ab-hibrit-arac-ithalat-kotasi",
+   "update_of": null,
+   "tag": "EKONOMİ",
+   "title": "AB'den hibrit otoya kota: Türkiye de listede",
+   "body": "AB Komisyonu, 1 Aralık'tan itibaren en fazla 200 gün geçerli olacak hibrit otomobil ithalat kotası koydu. Çin'in yanı sıra Türkiye, Japonya ve Güney Kore de kapsamda; Türkiye'nin ilk üç aylık payı yaklaşık 56.800 araç.",
+   "etki": "Türkiye'de üretilen bir hibrit almayı düşünüyorsan bayiden teslim tarihini yazılı olarak iste.",
+   "source": "DW Türkçe · electrive · Handelsblatt",
+   "sources_n": 3,
+   "sensitive": false,
+   "published": "2026-11-24T12:35"
+  }
+ ]
+}

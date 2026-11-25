@@ -1,0 +1,44 @@
+{
+ "date": "25 Kasım 2026 · Çarşamba",
+ "iso": "2026-11-25",
+ "edition": "aksam",
+ "needs_approval": true,
+ "items": [
+  {
+   "key": "vattenfall-elektrik-zammi-subat-2027",
+   "update_of": null,
+   "tag": "FATURA",
+   "title": "Vattenfall: Şubat'ta elektriğe %12 zam",
+   "body": "Vattenfall, Berlin'deki temel tarifede (Grundversorgung) kWh fiyatını 1 Şubat 2027'den itibaren 37,93'ten 42,44 sente çıkarıyor. Yılda 2.200 kWh harcayan bir hane ayda yaklaşık 8,27 € fazla ödeyecek; aylık sabit ücret değişmiyor.",
+   "etki": "Tarifen „Berlin Basis Privatstrom“ ise Aralık'ta mektup gelecek; şimdiden diğer tarifelerle karşılaştır.",
+   "source": "Vattenfall · Tagesspiegel (dpa) · t-online",
+   "sources_n": 3,
+   "sensitive": false,
+   "published": "2026-11-25T10:07"
+  },
+  {
+   "key": "yarin-berlin-2026-11-26",
+   "update_of": null,
+   "tag": "YARIN",
+   "title": "Yarın: Ring'de akşam kesintisi, gün boyu ayaz",
+   "body": "Perşembe 20.30'dan Cuma 01.30'a kadar S41/S42 Greifswalder Str.–Landsberger Allee arasında tren yok, yerine otobüs var. S8 ve S85'te de bazı kesimler kapalı. DWD: En fazla 0 derece, çoğunlukla kuru.",
+   "etki": "Akşam Ring'i kullanacaksan erken çık: kısa süreli kesinti yol tarifi uygulamalarında görünmüyor.",
+   "source": "VIZ Berlin · DWD (dpa)",
+   "sources_n": 2,
+   "sensitive": false,
+   "published": "2026-11-25T15:09"
+  },
+  {
+   "key": "black-friday-2026-alisveris-soru",
+   "update_of": null,
+   "tag": "SORU",
+   "title": "Black Friday'de alışveriş yapacak mısın?",
+   "body": "Cuma Black Friday, Pazartesi Cyber Monday. Perakende Birliği HDE iki günde 6,2 milyar € ciro bekliyor; ankete göre katılımcıların yüzde 51'i Black Friday'de alışveriş yapmayı planlıyor. Sen indirimleri bekliyor musun?",
+   "etki": "Ankete katıl / cevabını DM'den yaz",
+   "source": "HDE (retail-news · ESM)",
+   "sources_n": 2,
+   "sensitive": false,
+   "published": "2026-11-16T12:15"
+  }
+ ]
+}

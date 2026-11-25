@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-25",
+ "edition": "aksam",
+ "built": "2026-11-25T18:37:25+00:00",
+ "needs_approval": true,
+ "items": [
+  {
+   "idx": 1,
+   "title": "Vattenfall: Şubat'ta elektriğe %12 zam",
+   "tag": "FATURA",
+   "source": "Vattenfall · Tagesspiegel (dpa) · t-online",
+   "style": "neon",
+   "sensitive": false,
+   "sources_n": 3,
+   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-25-aksam/01.mp4",
+   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-25-aksam/01.jpg"
+  },
+  {
+   "idx": 2,
+   "title": "Yarın: Ring'de akşam kesintisi, gün boyu ayaz",
+   "tag": "YARIN",
+   "source": "VIZ Berlin · DWD (dpa)",
+   "style": "neon",
+   "sensitive": false,
+   "sources_n": 2,
+   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-25-aksam/02.mp4",
+   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-25-aksam/02.jpg"
+  },
+  {
+   "idx": 3,
+   "title": "Black Friday'de alışveriş yapacak mısın?",
+   "tag": "SORU",
+   "source": "HDE (retail-news · ESM)",
+   "style": "neon",
+   "sensitive": false,
+   "sources_n": 2,
+   "video_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-25-aksam/03.mp4",
+   "poster_url": "https://oarslanerbln-pixel.github.io/berlin-konusuyor-story/d/2026-11-25-aksam/03.jpg"
+  }
+ ]
+}
